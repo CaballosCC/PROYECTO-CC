@@ -1,0 +1,84 @@
+#logoCC{
+    width: 90px;
+    height: 95px;
+}
+
+#titleCC{
+    font-size: 26px;
+    font-family: "Georgia", serif;
+}
+
+#txtNav{
+    font-size: 19px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#columna1{
+    background-color: #6B441A;
+    height: 380px;
+}
+
+#imgservicio{
+    width: 320px;
+    height: 230px;
+    border-radius: 5%;
+    margin-top: 15px;
+}
+
+#decCard{
+    font-family: "Georgia", serif;
+    width: 400px; 
+    margin-bottom: 40px; 
+    height: 570px;
+    box-shadow: 0px 0px 15px 5px #6B441A;
+}
+
+#pP{
+    font-size: 15px;
+    margin: 10px;
+}
+
+.card {
+    transition: box-shadow 0.3s, transform 0.3s, opacity 0.3s; 
+  }
+  
+  .card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05); 
+  }
+  
+
+#bandaSeparadora{
+    width: 100%;
+    height: 115px;
+    margin-bottom: 30px;
+}
+
+@font-face {
+    font-family: Muybridge;
+    src: url(https://www.lorp.org/fonts/MuybridgeGX.woff2);
+}
+
+@keyframes Gallop {
+    from { font-variation-settings: "TIME" 0; }
+    to { font-variation-settings: "TIME" 15; }
+}
+
+body {
+    text-align: left;
+    color: #fff;
+    font: 120px Muybridge;
+    animation: 1s linear infinite Gallop;
+}
+
+
+#columna2{
+    background-color: #6B441A;
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+#ig{
+    width: 80px;
+    text-align: center;
+}

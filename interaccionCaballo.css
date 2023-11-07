@@ -1,0 +1,19 @@
+.horse {
+  --color-body: #8d5000;
+  --color-muzzle: #ffb380;
+  --color-eyes: #ffffff;
+  --color-teeth: #ffdd55;
+  --color-hoofs: #784421;
+}
+
+.ugly {
+  --color-body: lime;
+  --color-muzzle: red;
+  --color-eyes: hotpink;
+  --color-teeth: cyan;
+  --color-hoofs: blue;
+}
+
+#ctC{
+  font-family: "Georgia", serif;
+}
